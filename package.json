@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host `ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`",
+    "start": "ng serve --host 172.31.44.30",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
